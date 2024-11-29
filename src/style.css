@@ -45,12 +45,19 @@ form{
     border-radius: 10px;
     margin-left: 300px;
     margin-right: 250px;
-    margin-top: 370px;
+    margin-top: 300px;
     max-height: auto;
     overflow-y: auto;
     margin-top: 20px;
     white-space: pre-wrap;
 }
+.ex {
+    margin-left: 350px;
+    margin-top: -35px;
+    font-size: 13px;
+    opacity: 60%;
+}
+
 footer{
     text-align: center;
     font-size: 13px;
