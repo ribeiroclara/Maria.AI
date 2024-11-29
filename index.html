@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <title>Maria AI</title>
 </head>
 <body>
 <header>
     <h1>Hello I'm Maria</h1>
 </header>
+
 <main>
-<div>
+<div class="answer">
 Your answer will be type here.
 </div>
  <form>
    <input type="text" 
    placeholder="How can I help you?" 
    autofocus 
-   required autocomplete="off"/>
-   <input type="submit"/>
+   required autocomplete="off"
+   class="quest"/>
+<div class="button-wrapper">
+    <img src="ladybug.jpg" id="ladybug">
+   <input type="submit" class="submit-button"/>
+</div>
  </form>
 
 </main> 
