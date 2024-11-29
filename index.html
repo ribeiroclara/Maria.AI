@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Maria AI</title>
 </head>
+
 <body>
-<header>
-<h1 id="typewriter-text">Hello I'm Maria!</h1>
-</header>
+    <header>
+        <h1 id="typewriter-text">Hello I'm Maria!</h1>
+    </header>
 
-<main>
-<div class="answer" id="answer">
-</div>
- <form class="answer-generator-form">
-   <input type="text" 
-   placeholder="How can I help you?" 
-   autofocus 
-   required autocomplete="off"
-   class="quest"/>
-<div class="button-wrapper">
-    <img src="ladybug.jpg" id="ladybug">
-   <input type="submit" class="submit-button"/>
-</div>
- </form>
+    <main>
+        <div class="answer" id="answer"></div>
+        <form class="answer-generator-form">
+            <input type="text" name="prompt" placeholder="Message Maria" autofocus required autocomplete="off"
+                class="quest" />
+            <div class="button-wrapper">
+                <img src="ladybug.jpg" id="ladybug">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </main>
 
-</main> 
-<footer>This was code by <a href="www.linkedin.com/in/clara-ribeiro-9472772a8" target="_blank" >Clara Ribeiro </a>
-and is 
-<a href="https://github.com/ribeiroclara/Maria.AI" target="_blank">open-sourced on GitHub</a> 
-and is <a href="https://aimaria.netlify.app/" target="_blank">hostes on Netlify</a> 
+    <footer>
+        This was coded by <a href="www.linkedin.com/in/clara-ribeiro-9472772a8" target="_blank">Clara Ribeiro</a> and is
+        <a href="https://github.com/ribeiroclara/Maria.AI" target="_blank">open-sourced on GitHub</a>
+        and is <a href="https://aimaria.netlify.app/" target="_blank">hosted on Netlify</a>
+    </footer>
 
-</footer>
-<script src="src/script.js"></script>
+    <script src="src/script.js"></script>
 </body>
+
 </html>

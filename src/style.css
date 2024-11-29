@@ -42,9 +42,13 @@ form{
     border-left: 3px solid #c93220;
     box-shadow: 0px 20px 60px rgba(65,50,100,0.08);
     border-radius: 10px;
-    margin-left: 600px;
+    margin-left: 300px;
     margin-right: 250px;
     margin-top: 370px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 20px;
+    white-space: pre-wrap;
 }
 footer{
     text-align: center;
@@ -100,5 +104,5 @@ footer{
     top: -20px;
     left: 100%;
     width: 40px;
-    animation: walk 7s infinite linear;
+    animation: walk 8s infinite linear;
 }
