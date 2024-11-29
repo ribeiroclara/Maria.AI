@@ -31,7 +31,7 @@ const typewriterElement = document.getElementById('typewriter-text');
 
 const typewriter = new Typewriter(typewriterElement, {
     loop: false, 
-    delay: 1,  
+    delay: 10,  
     cursor: "", 
 });
 
