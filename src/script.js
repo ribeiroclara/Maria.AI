@@ -27,3 +27,15 @@ function generateAnswer(event) {
         console.error("Elemento com a classe 'answer' não foi encontrado.");
     }
 }
+const typewriterElement = document.getElementById('typewriter-text');
+
+const typewriter = new Typewriter(typewriterElement, {
+    loop: false, 
+    delay: 1,  
+    cursor: "", 
+});
+
+typewriter
+    .typeString("Hello I'm Maria!") 
+    .pauseFor(2000)
+    .start();
